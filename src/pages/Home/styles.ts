@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import imgHome from "../../assets/imgHome.jpg"
+import imgHome from "../../assets/imgHome2.jpg"
 import imgSection3 from "../../assets/imgSection3.jpg"
 import imgSection5 from "../../assets/imgSection5.jpg"
 import imgSection7 from "../../assets/imgSection7.jpg"

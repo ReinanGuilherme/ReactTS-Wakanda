@@ -1,26 +1,6 @@
 import { Container, TextoEscreveSozinho, ContainerTexto, ContainerFooter } from "./styles";
-import { useEffect } from "react";
 
 export function Home() {
-
-    function typeWrite(elemento: any){
-        const textoArray = elemento.innerHTML.split('');
-        elemento.innerHTML = ' ';
-        textoArray.forEach(function(letra: any, i: any){   
-          
-        setTimeout(function(){
-            elemento.innerHTML += letra;
-        }, 75 * i)
-    
-      });
-    }
-    
-    useEffect(() => {
-
-        const titulo = document.querySelector('.titulo-principal');
-        typeWrite(titulo);
-
-    }, [])
 
     return (
         <Container>
