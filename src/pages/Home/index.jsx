@@ -1,4 +1,4 @@
-import { Container, TextoEscreveSozinho, ContainerTexto } from "./styles";
+import { Container, TextoEscreveSozinho, ContainerTexto, ContainerFooter } from "./styles";
 import { useEffect } from "react";
 
 export function Home() {
@@ -39,12 +39,32 @@ export function Home() {
             </section>
 
             <ContainerTexto>
-                <h2>A RAINHA RAMONA É O RETRATO DE UMA MULHER FORTE, ELA MOSTRA QUE MESMO DE LUTO, MESMO COM SEUS INIMIGOS TENTANDO SE APROVEITAR DO MOMENTO DIFICIL QUE ELA ESTÁ PASSANDO, ELA CONSEGUE MANTER SEU PAÍS UNIDO E PROTEGIDO.</h2>
+                <h2><span>A RAINHA RAMONA</span> É O RETRATO DE UMA MULHER FORTE, ELA MOSTRA QUE MESMO DE LUTO, MESMO COM SEUS INIMIGOS TENTANDO SE APROVEITAR DO MOMENTO DIFICIL QUE ELA ESTÁ PASSANDO, ELA CONSEGUE MANTER SEU PAÍS UNIDO E PROTEGIDO.</h2>
             </ContainerTexto>
 
             <section>
 
             </section>
+
+            <ContainerTexto>
+                <h2><span>Shuri</span> é uma princesa africana do reino fictício de Wakanda. Sua maior característica é a inteligencia, sendo reconhecida como uma jovem Superdotada.</h2>
+            </ContainerTexto>
+
+            <section>
+
+            </section>
+
+            <ContainerTexto>
+                <h2><span>As Dora Milaje</span>, A guarda real de Wakanda é formada apenas por mulheres, de acordo com a tradição. Elas são treinadas em diversos estilos de luta e manipulação de armas, mulheres extremamente habilidosas que causam temor aos seus inimigos.</h2>
+            </ContainerTexto>
+
+            <section>
+
+            </section>
+
+            <ContainerFooter>
+                <h3>Desenvolvido por: Reinan Guilherme</h3>
+            </ContainerFooter>
         </Container>
     )
 }
