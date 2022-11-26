@@ -3,10 +3,10 @@ import { useEffect } from "react";
 
 export function Home() {
 
-    function typeWrite(elemento){
+    function typeWrite(elemento: any){
         const textoArray = elemento.innerHTML.split('');
         elemento.innerHTML = ' ';
-        textoArray.forEach(function(letra, i){   
+        textoArray.forEach(function(letra: any, i: any){   
           
         setTimeout(function(){
             elemento.innerHTML += letra;
